@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerBasket {
+  background-color: black;
+  margin-top: 10%;
+  width: 1000px;
+  background: url(https://picsum.photos/id/1004/5616/3744) no-repeat center
+    center #505050;
+  box-shadow: 8px 8px 20px rgb(128, 128, 128);
+  border-radius: 20px;
+}
+
+.total {
+  width: 100%;
+  /* background: rgba(0, 0, 0, 0); */
+  background: rgba(0, 0, 0, 0);
+  height: 70px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.helper {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.totalNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background: rgba(0, 0, 0, 0);
+}
+.totalPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background: rgba(0, 0, 0, 0);
+}
